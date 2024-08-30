@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from navigros2/srv/SetDist.srv
+// generated code does not contain a copyright notice
+
+
+module navigros2 {
+  module srv {
+    struct SetDist_Request {
+      double dist;
+    };
+    struct SetDist_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

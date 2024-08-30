@@ -1,0 +1,7 @@
+/root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2:msg/Alignment.idl
+/root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2:msg/FeatureLocations.idl
+/root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2:msg/FloatList.idl
+/root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2:srv/SetDist.idl
+/root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2:srv/SetClockGain.idl
+/root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2:action/MapMaker.idl
+/root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2:action/MapRepeater.idl

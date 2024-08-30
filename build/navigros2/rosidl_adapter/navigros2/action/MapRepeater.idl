@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from navigros2/action/MapRepeater.action
+// generated code does not contain a copyright notice
+
+
+module navigros2 {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal definition")
+    struct MapRepeater_Goal {
+      double start_pos;
+
+      double end_pos;
+
+      uint8 traversals;
+
+      string map_name;
+    };
+    @verbatim (language="comment", text=
+      "Result definition")
+    struct MapRepeater_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback definition")
+    struct MapRepeater_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from navigros2/msg/FloatList.msg
+// generated code does not contain a copyright notice
+
+
+module navigros2 {
+  module msg {
+    struct FloatList {
+      sequence<float> data;
+    };
+  };
+};

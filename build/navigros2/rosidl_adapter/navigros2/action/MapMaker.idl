@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from navigros2/action/MapMaker.action
+// generated code does not contain a copyright notice
+
+
+module navigros2 {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal definition")
+    struct MapMaker_Goal {
+      boolean saveimgs4viz;
+
+      string map_name;
+
+      boolean start;
+    };
+    @verbatim (language="comment", text=
+      "Result definition")
+    struct MapMaker_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback definition")
+    struct MapMaker_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

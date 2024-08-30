@@ -1,0 +1,65 @@
+[0.026s] Invoking command in '/root/nav_migration/src/build/navigros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/navigros2 -- -j22 -l22
+[0.166s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.415s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.423s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.431s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.824s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.825s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.880s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.906s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.934s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.308s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.560s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.896s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.929s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.960s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.960s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.960s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.263s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[2.263s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name navigros2
+[2.264s]   --arguments-file
+[2.264s]   /root/nav_migration/src/build/navigros2/rosidl_adapter__arguments__navigros2.json
+[2.264s]   --output-dir
+[2.264s]   /root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2
+[2.264s]   --output-file
+[2.264s]   /root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2.idls)
+[2.264s]   returned error code 1:
+[2.264s] 
+[2.264s]   Error processing 'bool saveImgsForViz' of 'navigros2/MapMaker_Goal':
+[2.264s]   ''saveImgsForViz' is an invalid field name.  It should have the pattern
+[2.264s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[2.264s] 
+[2.264s]   Traceback (most recent call last):
+[2.264s] 
+[2.264s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[2.264s]       return _run_code(code, main_globals, None,
+[2.264s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[2.264s]       exec(code, run_globals)
+[2.264s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.264s]       sys.exit(main())
+[2.264s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[2.264s]       abs_idl_file = convert_to_idl(
+[2.264s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[2.265s]       return convert_action_to_idl(
+[2.265s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[2.265s]       action = parse_action_string(package_name, input_file.stem, content)
+[2.265s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 902, in parse_action_string
+[2.265s]       goal_message = parse_message_string(
+[2.265s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[2.265s]       fields.append(Field(
+[2.265s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[2.265s]       raise NameError(
+[2.265s] 
+[2.265s]   NameError: 'saveImgsForViz' is an invalid field name.  It should have the
+[2.265s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[2.265s] 
+[2.265s] Call Stack (most recent call first):
+[2.265s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.265s]   CMakeLists.txt:30 (rosidl_generate_interfaces)
+[2.265s] 
+[2.265s] [0m
+[2.273s] -- Configuring incomplete, errors occurred!
+[2.273s] See also "/root/nav_migration/src/build/navigros2/CMakeFiles/CMakeOutput.log".
+[2.286s] gmake: *** [Makefile:1611: cmake_check_build_system] Error 1
+[2.290s] Invoked command in '/root/nav_migration/src/build/navigros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/navigros2 -- -j22 -l22

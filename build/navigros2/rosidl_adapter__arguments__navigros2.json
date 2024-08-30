@@ -1,0 +1,12 @@
+{
+  "package_name": "navigros2",
+  "non_idl_tuples": [
+    "/root/nav_migration/src/navigros2:msg/Alignment.msg",
+    "/root/nav_migration/src/navigros2:msg/FeatureLocations.msg",
+    "/root/nav_migration/src/navigros2:msg/FloatList.msg",
+    "/root/nav_migration/src/navigros2:srv/SetDist.srv",
+    "/root/nav_migration/src/navigros2:srv/SetClockGain.srv",
+    "/root/nav_migration/src/navigros2:action/MapMaker.action",
+    "/root/nav_migration/src/navigros2:action/MapRepeater.action"
+  ]
+}

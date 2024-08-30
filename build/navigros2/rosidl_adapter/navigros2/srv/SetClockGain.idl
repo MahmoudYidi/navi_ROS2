@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from navigros2/srv/SetClockGain.srv
+// generated code does not contain a copyright notice
+
+
+module navigros2 {
+  module srv {
+    struct SetClockGain_Request {
+      float gain;
+    };
+    struct SetClockGain_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

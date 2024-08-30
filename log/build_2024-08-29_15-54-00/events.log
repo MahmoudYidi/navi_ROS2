@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (navigros2) JobQueued: {'identifier': 'navigros2', 'dependencies': OrderedDict()}
+[0.001910] (navigros2) JobStarted: {'identifier': 'navigros2'}
+[0.023199] (navigros2) JobProgress: {'identifier': 'navigros2', 'progress': 'cmake'}
+[0.026046] (navigros2) JobProgress: {'identifier': 'navigros2', 'progress': 'build'}
+[0.026147] (navigros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/nav_migration/src/build/navigros2', '--', '-j22', '-l22'], 'cwd': '/root/nav_migration/src/build/navigros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/nav_migration/src/install/navigros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root/nav_migration'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/nav_migration/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-2N45IP5'), ('WSL_INTEROP', '/run/WSL/380_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'b374ebf1-1c4f-4701-bbf2-f817b9ad86b7'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', 'localhost:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/nav_migration/src/install/navigros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/nav_migration/src/build/navigros2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/nav_migration/src/install/navigros2:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099579] (-) TimerEvent: {}
+[0.168037] (navigros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199834] (-) TimerEvent: {}
+[0.300347] (-) TimerEvent: {}
+[0.400904] (-) TimerEvent: {}
+[0.417112] (navigros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.424539] (navigros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.432574] (navigros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.501099] (-) TimerEvent: {}
+[0.601779] (-) TimerEvent: {}
+[0.702514] (-) TimerEvent: {}
+[0.753347] (navigros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.802658] (-) TimerEvent: {}
+[0.825307] (navigros2) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.826588] (navigros2) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.881894] (navigros2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.902790] (-) TimerEvent: {}
+[0.907488] (navigros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.935543] (navigros2) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[1.003001] (-) TimerEvent: {}
+[1.103511] (-) TimerEvent: {}
+[1.204113] (-) TimerEvent: {}
+[1.304702] (-) TimerEvent: {}
+[1.310102] (navigros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.404957] (-) TimerEvent: {}
+[1.505426] (-) TimerEvent: {}
+[1.561472] (navigros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.605623] (-) TimerEvent: {}
+[1.706369] (-) TimerEvent: {}
+[1.807123] (-) TimerEvent: {}
+[1.897917] (navigros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.907348] (-) TimerEvent: {}
+[1.931227] (navigros2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.961745] (navigros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.962044] (navigros2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.962141] (navigros2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.007541] (-) TimerEvent: {}
+[2.108194] (-) TimerEvent: {}
+[2.209142] (-) TimerEvent: {}
+[2.265138] (navigros2) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[2.265408] (navigros2) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name navigros2\n'}
+[2.265470] (navigros2) StderrLine: {'line': b'  --arguments-file\n'}
+[2.265519] (navigros2) StderrLine: {'line': b'  /root/nav_migration/src/build/navigros2/rosidl_adapter__arguments__navigros2.json\n'}
+[2.265566] (navigros2) StderrLine: {'line': b'  --output-dir\n'}
+[2.265616] (navigros2) StderrLine: {'line': b'  /root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2\n'}
+[2.265665] (navigros2) StderrLine: {'line': b'  --output-file\n'}
+[2.265709] (navigros2) StderrLine: {'line': b'  /root/nav_migration/src/build/navigros2/rosidl_adapter/navigros2.idls)\n'}
+[2.265753] (navigros2) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.265797] (navigros2) StderrLine: {'line': b'\n'}
+[2.265846] (navigros2) StderrLine: {'line': b"  Error processing 'bool saveImgsForViz' of 'navigros2/MapMaker_Goal':\n"}
+[2.265891] (navigros2) StderrLine: {'line': b"  ''saveImgsForViz' is an invalid field name.  It should have the pattern\n"}
+[2.265933] (navigros2) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[2.265977] (navigros2) StderrLine: {'line': b'\n'}
+[2.266018] (navigros2) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.266060] (navigros2) StderrLine: {'line': b'\n'}
+[2.266102] (navigros2) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[2.266143] (navigros2) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.266186] (navigros2) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[2.266228] (navigros2) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.266271] (navigros2) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.266311] (navigros2) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.266354] (navigros2) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.266395] (navigros2) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.266436] (navigros2) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl\n'}
+[2.266476] (navigros2) StderrLine: {'line': b'      return convert_action_to_idl(\n'}
+[2.266516] (navigros2) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl\n'}
+[2.266559] (navigros2) StderrLine: {'line': b'      action = parse_action_string(package_name, input_file.stem, content)\n'}
+[2.266600] (navigros2) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 902, in parse_action_string\n'}
+[2.266644] (navigros2) StderrLine: {'line': b'      goal_message = parse_message_string(\n'}
+[2.266687] (navigros2) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string\n'}
+[2.266727] (navigros2) StderrLine: {'line': b'      fields.append(Field(\n'}
+[2.266768] (navigros2) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__\n'}
+[2.266809] (navigros2) StderrLine: {'line': b'      raise NameError(\n'}
+[2.266850] (navigros2) StderrLine: {'line': b'\n'}
+[2.266890] (navigros2) StderrLine: {'line': b"  NameError: 'saveImgsForViz' is an invalid field name.  It should have the\n"}
+[2.266934] (navigros2) StderrLine: {'line': b"  pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[2.266975] (navigros2) StderrLine: {'line': b'\n'}
+[2.267017] (navigros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.267057] (navigros2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.267098] (navigros2) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[2.267139] (navigros2) StderrLine: {'line': b'\n'}
+[2.267178] (navigros2) StderrLine: {'line': b'\x1b[0m\n'}
+[2.275149] (navigros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.275332] (navigros2) StdoutLine: {'line': b'See also "/root/nav_migration/src/build/navigros2/CMakeFiles/CMakeOutput.log".\n'}
+[2.287523] (navigros2) StderrLine: {'line': b'gmake: *** [Makefile:1611: cmake_check_build_system] Error 1\n'}
+[2.291553] (navigros2) CommandEnded: {'returncode': 2}
+[2.309228] (-) TimerEvent: {}
+[2.409608] (-) TimerEvent: {}
+[2.455191] (navigros2) JobEnded: {'identifier': 'navigros2', 'rc': 2}
+[2.466342] (-) EventReactorShutdown: {}

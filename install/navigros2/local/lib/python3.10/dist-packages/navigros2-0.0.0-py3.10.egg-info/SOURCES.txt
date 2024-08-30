@@ -1,0 +1,16 @@
+setup.py
+navigros2/__init__.py
+navigros2.egg-info/PKG-INFO
+navigros2.egg-info/SOURCES.txt
+navigros2.egg-info/dependency_links.txt
+navigros2.egg-info/top_level.txt
+navigros2/action/__init__.py
+navigros2/action/_map_maker.py
+navigros2/action/_map_repeater.py
+navigros2/msg/__init__.py
+navigros2/msg/_alignment.py
+navigros2/msg/_feature_locations.py
+navigros2/msg/_float_list.py
+navigros2/srv/__init__.py
+navigros2/srv/_set_clock_gain.py
+navigros2/srv/_set_dist.py
