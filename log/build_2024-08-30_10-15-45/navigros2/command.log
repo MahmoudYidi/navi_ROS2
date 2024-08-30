@@ -1,0 +1,4 @@
+Invoking command in '/root/nav_migration/src/build/navigros2': /usr/bin/cmake --build /root/nav_migration/src/build/navigros2 -- -j22 -l22
+Invoked command in '/root/nav_migration/src/build/navigros2' returned '0': /usr/bin/cmake --build /root/nav_migration/src/build/navigros2 -- -j22 -l22
+Invoking command in '/root/nav_migration/src/build/navigros2': /usr/bin/cmake --install /root/nav_migration/src/build/navigros2
+Invoked command in '/root/nav_migration/src/build/navigros2' returned '0': /usr/bin/cmake --install /root/nav_migration/src/build/navigros2
