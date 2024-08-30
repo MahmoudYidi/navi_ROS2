@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_FASTRTPS_CPP_BUILDING_DLL_navigros2 -DROS_PACKAGE_NAME=\"navigros2\"
 
-CXX_INCLUDES = -I/root/nav_migration/src/build/navigros2/rosidl_typesupport_fastrtps_cpp -I/root/nav_migration/src/build/navigros2/rosidl_generator_cpp -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs
+CXX_INCLUDES = -I/root/nav_migration/src/build/navigros2/rosidl_typesupport_fastrtps_cpp -I/root/nav_migration/src/navigros2/include -I/root/nav_migration/src/build/navigros2/rosidl_generator_cpp -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs
 
 CXX_FLAGS = -fPIC -Wall -Wextra -Wpedantic -Wredundant-decls -std=gnu++14
 
