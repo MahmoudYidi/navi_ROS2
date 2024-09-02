@@ -1,0 +1,318 @@
+[0.000000] (-) TimerEvent: {}
+[0.000241] (navigros2) JobQueued: {'identifier': 'navigros2', 'dependencies': OrderedDict()}
+[0.000305] (navigros2) JobStarted: {'identifier': 'navigros2'}
+[0.004927] (navigros2) JobProgress: {'identifier': 'navigros2', 'progress': 'cmake'}
+[0.005336] (navigros2) JobProgress: {'identifier': 'navigros2', 'progress': 'build'}
+[0.006124] (navigros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/nav_migration/src/build/navigros2', '--', '-j22', '-l22'], 'cwd': '/root/nav_migration/src/build/navigros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/nav_migration/src/install/navigros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/nav_migration/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-2N45IP5'), ('WSL_INTEROP', '/run/WSL/111336_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '1f48b733-8afa-4a3b-bf60-bdcfe327a5be'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', 'localhost:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/nav_migration/src/install/navigros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/nav_migration/src/build/navigros2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages:/root/nav_migration/src/install/navigros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/nav_migration/src/install/navigros2:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.032771] (navigros2) StdoutLine: {'line': b'[  1%] Built target navigros2__cpp\n'}
+[0.038119] (navigros2) StdoutLine: {'line': b'[ 12%] Built target navigros2__rosidl_generator_c\n'}
+[0.038347] (navigros2) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_navigros2\n'}
+[0.050595] (navigros2) StdoutLine: {'line': b'[ 35%] Built target navigros2__rosidl_typesupport_fastrtps_c\n'}
+[0.050878] (navigros2) StdoutLine: {'line': b'[ 35%] Built target navigros2__rosidl_typesupport_cpp\n'}
+[0.051626] (navigros2) StdoutLine: {'line': b'[ 54%] Built target navigros2__rosidl_typesupport_c\n'}
+[0.051711] (navigros2) StdoutLine: {'line': b'[ 58%] Built target navigros2__rosidl_typesupport_introspection_c\n'}
+[0.054198] (navigros2) StdoutLine: {'line': b'[ 69%] Built target navigros2__rosidl_typesupport_introspection_cpp\n'}
+[0.055454] (navigros2) StdoutLine: {'line': b'[ 81%] Built target navigros2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.065195] (navigros2) StdoutLine: {'line': b'[ 81%] Built target navigros2\n'}
+[0.075222] (navigros2) StdoutLine: {'line': b'[ 82%] Built target navigros2__py\n'}
+[0.087646] (navigros2) StdoutLine: {'line': b'[ 92%] Built target navigros2__rosidl_generator_py\n'}
+[0.099230] (-) TimerEvent: {}
+[0.099644] (navigros2) StdoutLine: {'line': b'[ 97%] Built target navigros2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.099866] (navigros2) StdoutLine: {'line': b'[ 97%] Built target navigros2__rosidl_typesupport_c__pyext\n'}
+[0.100321] (navigros2) StdoutLine: {'line': b'[100%] Built target navigros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.159639] (navigros2) StdoutLine: {'line': b'running egg_info\n'}
+[0.159865] (navigros2) StdoutLine: {'line': b'writing navigros2.egg-info/PKG-INFO\n'}
+[0.160171] (navigros2) StdoutLine: {'line': b'writing dependency_links to navigros2.egg-info/dependency_links.txt\n'}
+[0.160311] (navigros2) StdoutLine: {'line': b'writing top-level names to navigros2.egg-info/top_level.txt\n'}
+[0.161802] (navigros2) StdoutLine: {'line': b"reading manifest file 'navigros2.egg-info/SOURCES.txt'\n"}
+[0.161982] (navigros2) StdoutLine: {'line': b"writing manifest file 'navigros2.egg-info/SOURCES.txt'\n"}
+[0.176983] (navigros2) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_navigros2_egg\n'}
+[0.182918] (navigros2) CommandEnded: {'returncode': 0}
+[0.199312] (-) TimerEvent: {}
+[0.262379] (navigros2) JobProgress: {'identifier': 'navigros2', 'progress': 'install'}
+[0.267332] (navigros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/nav_migration/src/build/navigros2'], 'cwd': '/root/nav_migration/src/build/navigros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/nav_migration/src/install/navigros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/nav_migration/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-2N45IP5'), ('WSL_INTEROP', '/run/WSL/111336_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '1f48b733-8afa-4a3b-bf60-bdcfe327a5be'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', 'localhost:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/nav_migration/src/install/navigros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/nav_migration/src/build/navigros2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages:/root/nav_migration/src/install/navigros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/nav_migration/src/install/navigros2:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.271227] (navigros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.271340] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/ament_index/resource_index/rosidl_interfaces/navigros2\n'}
+[0.271461] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2\n'}
+[0.271706] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action\n'}
+[0.271756] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/map_repeater.h\n'}
+[0.271910] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail\n'}
+[0.271955] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__type_support.h\n'}
+[0.271985] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__functions.c\n'}
+[0.272032] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__struct.h\n'}
+[0.272116] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__struct.h\n'}
+[0.272354] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__functions.h\n'}
+[0.272437] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__type_support.h\n'}
+[0.272520] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__functions.h\n'}
+[0.272600] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__functions.c\n'}
+[0.272681] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/map_maker.h\n'}
+[0.272762] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg\n'}
+[0.272843] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.272925] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail\n'}
+[0.273006] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__type_support.h\n'}
+[0.273185] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__functions.c\n'}
+[0.273263] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__struct.h\n'}
+[0.273344] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__type_support.h\n'}
+[0.273425] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__struct.h\n'}
+[0.273507] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__functions.c\n'}
+[0.273587] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__functions.c\n'}
+[0.273665] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__struct.h\n'}
+[0.273746] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__functions.h\n'}
+[0.273893] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__functions.h\n'}
+[0.273941] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__functions.h\n'}
+[0.273970] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__type_support.h\n'}
+[0.274006] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/alignment.h\n'}
+[0.274036] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/float_list.h\n'}
+[0.274069] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/feature_locations.h\n'}
+[0.274099] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv\n'}
+[0.274129] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail\n'}
+[0.274156] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__functions.h\n'}
+[0.274189] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__type_support.h\n'}
+[0.274216] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__functions.h\n'}
+[0.274244] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__functions.c\n'}
+[0.274274] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__functions.c\n'}
+[0.274304] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__struct.h\n'}
+[0.274330] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__struct.h\n'}
+[0.274563] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__type_support.h\n'}
+[0.274639] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/set_clock_gain.h\n'}
+[0.274721] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/set_dist.h\n'}
+[0.274802] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/library_path.sh\n'}
+[0.274881] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/library_path.dsv\n'}
+[0.274963] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_generator_c.so\n'}
+[0.275045] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2\n'}
+[0.275126] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action\n'}
+[0.275207] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail\n'}
+[0.275287] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__rosidl_typesupport_fastrtps_c.h\n'}
+[0.275457] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__rosidl_typesupport_fastrtps_c.h\n'}
+[0.275494] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg\n'}
+[0.275578] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail\n'}
+[0.275660] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__rosidl_typesupport_fastrtps_c.h\n'}
+[0.275731] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__rosidl_typesupport_fastrtps_c.h\n'}
+[0.275813] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__rosidl_typesupport_fastrtps_c.h\n'}
+[0.275883] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.275968] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv\n'}
+[0.276048] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail\n'}
+[0.276128] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__rosidl_typesupport_fastrtps_c.h\n'}
+[0.276211] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__rosidl_typesupport_fastrtps_c.h\n'}
+[0.276295] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_fastrtps_c.so\n'}
+[0.276342] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2\n'}
+[0.276370] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action\n'}
+[0.276397] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail\n'}
+[0.276425] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__type_support.c\n'}
+[0.276450] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__type_support.c\n'}
+[0.276475] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__rosidl_typesupport_introspection_c.h\n'}
+[0.276500] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__rosidl_typesupport_introspection_c.h\n'}
+[0.276525] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg\n'}
+[0.276550] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail\n'}
+[0.276575] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__type_support.c\n'}
+[0.276608] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__type_support.c\n'}
+[0.276646] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__rosidl_typesupport_introspection_c.h\n'}
+[0.276700] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__rosidl_typesupport_introspection_c.h\n'}
+[0.276769] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__rosidl_typesupport_introspection_c.h\n'}
+[0.276852] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__type_support.c\n'}
+[0.276933] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.277013] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv\n'}
+[0.277093] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail\n'}
+[0.277174] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__rosidl_typesupport_introspection_c.h\n'}
+[0.277257] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__type_support.c\n'}
+[0.277337] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__type_support.c\n'}
+[0.277418] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__rosidl_typesupport_introspection_c.h\n'}
+[0.277497] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_introspection_c.so\n'}
+[0.277582] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_c.so\n'}
+[0.277663] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2\n'}
+[0.277744] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action\n'}
+[0.277825] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail\n'}
+[0.277905] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__traits.hpp\n'}
+[0.277985] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__traits.hpp\n'}
+[0.278065] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__builder.hpp\n'}
+[0.278146] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__builder.hpp\n'}
+[0.278226] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__struct.hpp\n'}
+[0.278307] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__struct.hpp\n'}
+[0.278391] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/map_maker.hpp\n'}
+[0.278472] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/map_repeater.hpp\n'}
+[0.278552] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg\n'}
+[0.278632] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail\n'}
+[0.278713] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__builder.hpp\n'}
+[0.278793] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__struct.hpp\n'}
+[0.278873] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__builder.hpp\n'}
+[0.278955] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__struct.hpp\n'}
+[0.279036] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__traits.hpp\n'}
+[0.279117] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__builder.hpp\n'}
+[0.279198] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__traits.hpp\n'}
+[0.279280] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__struct.hpp\n'}
+[0.279360] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__traits.hpp\n'}
+[0.279453] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/feature_locations.hpp\n'}
+[0.279534] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/float_list.hpp\n'}
+[0.279615] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/alignment.hpp\n'}
+[0.279696] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv\n'}
+[0.279778] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail\n'}
+[0.279860] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__builder.hpp\n'}
+[0.279942] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__struct.hpp\n'}
+[0.280026] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__struct.hpp\n'}
+[0.280109] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__traits.hpp\n'}
+[0.280192] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__builder.hpp\n'}
+[0.280273] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__traits.hpp\n'}
+[0.280355] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/set_dist.hpp\n'}
+[0.280436] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/set_clock_gain.hpp\n'}
+[0.280518] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2\n'}
+[0.280599] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action\n'}
+[0.280680] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail\n'}
+[0.280762] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/dds_fastrtps\n'}
+[0.280842] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.280924] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.281005] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg\n'}
+[0.281088] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail\n'}
+[0.281170] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.281252] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/dds_fastrtps\n'}
+[0.281390] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.281418] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.281445] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.281471] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv\n'}
+[0.281496] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail\n'}
+[0.281522] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.281547] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/dds_fastrtps\n'}
+[0.281571] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.281595] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.281619] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2\n'}
+[0.281643] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action\n'}
+[0.281667] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail\n'}
+[0.281691] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.281735] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__type_support.cpp\n'}
+[0.281771] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.281802] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__type_support.cpp\n'}
+[0.281832] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg\n'}
+[0.281862] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail\n'}
+[0.281892] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__type_support.cpp\n'}
+[0.281920] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__type_support.cpp\n'}
+[0.281947] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.281974] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.282001] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__type_support.cpp\n'}
+[0.282027] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.282056] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv\n'}
+[0.282084] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail\n'}
+[0.282112] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.282139] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__type_support.cpp\n'}
+[0.282169] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.282198] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__type_support.cpp\n'}
+[0.282223] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_introspection_cpp.so\n'}
+[0.282247] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_cpp.so\n'}
+[0.282273] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/pythonpath.sh\n'}
+[0.282299] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/pythonpath.dsv\n'}
+[0.282327] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2-0.0.0-py3.10.egg-info\n'}
+[0.282352] (navigros2) StdoutLine: {'line': b'-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.282380] (navigros2) StdoutLine: {'line': b'-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.282407] (navigros2) StdoutLine: {'line': b'-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.282433] (navigros2) StdoutLine: {'line': b'-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.282460] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2\n'}
+[0.282489] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.282521] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action\n'}
+[0.282554] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/_map_repeater_s.c\n'}
+[0.282580] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/_map_maker.py\n'}
+[0.282608] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/_map_repeater.py\n'}
+[0.282636] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/_map_maker_s.c\n'}
+[0.282666] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/__init__.py\n'}
+[0.282696] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.282722] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg\n'}
+[0.282751] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_float_list.py\n'}
+[0.282777] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_alignment_s.c\n'}
+[0.282805] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_feature_locations.py\n'}
+[0.282831] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_alignment.py\n'}
+[0.282858] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_float_list_s.c\n'}
+[0.282886] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/__init__.py\n'}
+[0.282912] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_feature_locations_s.c\n'}
+[0.282937] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv\n'}
+[0.282963] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/_set_clock_gain.py\n'}
+[0.282991] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/_set_dist.py\n'}
+[0.283021] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/_set_clock_gain_s.c\n'}
+[0.283048] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/_set_dist_s.c\n'}
+[0.283077] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/__init__.py\n'}
+[0.283109] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/_navigros2_s.ep.rosidl_typesupport_c.c\n'}
+[0.283135] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.283164] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/_navigros2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.283191] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/_navigros2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.283223] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/__init__.py\n'}
+[0.283254] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/libnavigros2__rosidl_generator_py.so\n'}
+[0.293799] (navigros2) StdoutLine: {'line': b"Listing '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2'...\n"}
+[0.293926] (navigros2) StdoutLine: {'line': b"Listing '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action'...\n"}
+[0.293964] (navigros2) StdoutLine: {'line': b"Listing '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg'...\n"}
+[0.293997] (navigros2) StdoutLine: {'line': b"Listing '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv'...\n"}
+[0.296326] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.296399] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.296473] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.296584] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_generator_py.so\n'}
+[0.296624] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/Alignment.idl\n'}
+[0.296774] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/FeatureLocations.idl\n'}
+[0.296921] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/FloatList.idl\n'}
+[0.296969] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetDist.idl\n'}
+[0.296997] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetClockGain.idl\n'}
+[0.297076] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/action/MapMaker.idl\n'}
+[0.297155] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/action/MapRepeater.idl\n'}
+[0.297235] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/Alignment.msg\n'}
+[0.297313] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/FeatureLocations.msg\n'}
+[0.297381] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/FloatList.msg\n'}
+[0.297459] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetDist.srv\n'}
+[0.297537] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetDist_Request.msg\n'}
+[0.297615] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetDist_Response.msg\n'}
+[0.297694] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetClockGain.srv\n'}
+[0.297772] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetClockGain_Request.msg\n'}
+[0.297850] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetClockGain_Response.msg\n'}
+[0.297927] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/action/MapMaker.action\n'}
+[0.298045] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/action/MapRepeater.action\n'}
+[0.298240] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/distance_ros.py\n'}
+[0.298314] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/distance.py\n'}
+[0.298393] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/histogram_viz.py\n'}
+[0.298516] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/live_viz.py\n'}
+[0.298587] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/matches_viz.py\n'}
+[0.298665] (navigros2) StdoutLine: {'line': b'-- Installing: /root/nav_migration/src/install/navigros2/lib/navigros2/mapmaker_ros.py\n'}
+[0.298744] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/repeater_ros.py\n'}
+[0.298801] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch\n'}
+[0.298830] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/launch_node.py\n'}
+[0.298857] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/navigros2_launch.py\n'}
+[0.298894] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/__pycache__\n'}
+[0.298925] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/__pycache__/launch_node.cpython-310.pyc\n'}
+[0.299009] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/launcher.py\n'}
+[0.299036] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/navigros2-gui-launch.py\n'}
+[0.299061] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/ament_index/resource_index/package_run_dependencies/navigros2\n'}
+[0.299085] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/ament_index/resource_index/parent_prefix_path/navigros2\n'}
+[0.299108] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/ament_prefix_path.sh\n'}
+[0.299132] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/ament_prefix_path.dsv\n'}
+[0.299156] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/path.sh\n'}
+[0.299181] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/path.dsv\n'}
+[0.299204] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/local_setup.bash\n'}
+[0.299226] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/local_setup.sh\n'}
+[0.299251] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/local_setup.zsh\n'}
+[0.299273] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/local_setup.dsv\n'}
+[0.299296] (navigros2) StdoutLine: {'line': b'-- Installing: /root/nav_migration/src/install/navigros2/share/navigros2/package.dsv\n'}
+[0.299319] (-) TimerEvent: {}
+[0.299542] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/ament_index/resource_index/packages/navigros2\n'}
+[0.299630] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_generator_cExport.cmake\n'}
+[0.299710] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.299764] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.300082] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.300348] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.300429] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.300506] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_cExport.cmake\n'}
+[0.300584] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.300661] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_generator_cppExport.cmake\n'}
+[0.300738] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.300816] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.300893] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.300971] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.301049] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_cppExport.cmake\n'}
+[0.301126] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.301204] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_generator_pyExport.cmake\n'}
+[0.301282] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.301358] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/rosidl_cmake-extras.cmake\n'}
+[0.301436] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.301538] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.302029] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.302124] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.302207] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.302290] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.302376] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2Config.cmake\n'}
+[0.302458] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2Config-version.cmake\n'}
+[0.302534] (navigros2) StdoutLine: {'line': b'-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/package.xml\n'}
+[0.302572] (navigros2) CommandEnded: {'returncode': 0}
+[0.399434] (-) TimerEvent: {}
+[0.403578] (navigros2) JobEnded: {'identifier': 'navigros2', 'rc': 0}
+[0.404491] (-) EventReactorShutdown: {}

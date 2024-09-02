@@ -175,7 +175,10 @@
 /root/nav_migration/src/install/navigros2/lib/navigros2/histogram_viz.py
 /root/nav_migration/src/install/navigros2/lib/navigros2/live_viz.py
 /root/nav_migration/src/install/navigros2/lib/navigros2/matches_viz.py
+/root/nav_migration/src/install/navigros2/lib/navigros2/mapmaker_ros.py
+/root/nav_migration/src/install/navigros2/lib/navigros2/repeater_ros.py
 /root/nav_migration/src/install/navigros2/share/navigros2/launch/launch_node.py
+/root/nav_migration/src/install/navigros2/share/navigros2/launch/navigros2_launch.py
 /root/nav_migration/src/install/navigros2/share/navigros2/launch/__pycache__/launch_node.cpython-310.pyc
 /root/nav_migration/src/install/navigros2/share/navigros2/launch/launcher.py
 /root/nav_migration/src/install/navigros2/share/navigros2/launch/navigros2-gui-launch.py

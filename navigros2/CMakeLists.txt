@@ -17,7 +17,6 @@ find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
 
-
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -45,6 +44,10 @@ install(PROGRAMS
   src/gui/histogram_viz.py
   src/gui/live_viz.py
   src/gui/matches_viz.py
+  src/master/mapmaker_ros.py
+  src/master/repeater_ros.py
+
+
 
   DESTINATION lib/${PROJECT_NAME}
 )

@@ -47,7 +47,7 @@ class DistanceNode(Node):
         driven = self.d.set(request)
         self.get_logger().info(f"Distance set to {driven}")
         self.pub.publish(Float64(data=driven))
-        response.success = True
+        #response.success = True
         return response
 
 def main(args=None):

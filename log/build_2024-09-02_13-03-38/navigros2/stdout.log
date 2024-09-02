@@ -1,0 +1,436 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/nav_migration/src/build/navigros2
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_navigros2
+running egg_info
+writing navigros2.egg-info/PKG-INFO
+writing dependency_links to navigros2.egg-info/dependency_links.txt
+writing top-level names to navigros2.egg-info/top_level.txt
+reading manifest file 'navigros2.egg-info/SOURCES.txt'
+writing manifest file 'navigros2.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_navigros2_egg
+[  2%] Built target navigros2__cpp
+[  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_generator_c[0m
+[ 10%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_c.dir/rosidl_generator_c/navigros2/srv/detail/set_dist__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_c.dir/rosidl_generator_c/navigros2/msg/detail/float_list__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_c.dir/rosidl_generator_c/navigros2/msg/detail/alignment__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_c.dir/rosidl_generator_c/navigros2/msg/detail/feature_locations__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_c.dir/rosidl_generator_c/navigros2/action/detail/map_repeater__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_c.dir/rosidl_generator_c/navigros2/action/detail/map_maker__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_c.dir/rosidl_generator_c/navigros2/srv/detail/set_clock_gain__functions.c.o[0m
+[ 16%] [32m[1mLinking C shared library libnavigros2__rosidl_generator_c.so[0m
+[ 16%] Built target navigros2__rosidl_generator_c
+[ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_typesupport_cpp[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigros2/msg/float_list__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigros2/msg/feature_locations__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigros2/srv/set_clock_gain__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigros2/msg/alignment__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigros2/srv/set_dist__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigros2/action/map_maker__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigros2/action/map_repeater__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_typesupport_introspection_cpp[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigros2/action/detail/map_maker__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigros2/srv/detail/set_clock_gain__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigros2/msg/detail/alignment__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigros2/srv/detail/set_dist__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigros2/msg/detail/feature_locations__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigros2/msg/detail/float_list__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigros2/action/detail/map_repeater__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_typesupport_fastrtps_cpp[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigros2/msg/detail/dds_fastrtps/float_list__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigros2/msg/detail/dds_fastrtps/feature_locations__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigros2/msg/detail/dds_fastrtps/alignment__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigros2/srv/detail/dds_fastrtps/set_dist__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigros2/srv/detail/dds_fastrtps/set_clock_gain__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigros2/action/detail/dds_fastrtps/map_repeater__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigros2/action/detail/dds_fastrtps/map_maker__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_typesupport_c[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigros2/msg/alignment__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigros2/srv/set_dist__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigros2/msg/feature_locations__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigros2/msg/float_list__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigros2/srv/set_clock_gain__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigros2/action/map_repeater__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigros2/action/map_maker__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libnavigros2__rosidl_typesupport_c.so[0m
+[ 56%] Built target navigros2__rosidl_typesupport_c
+[ 58%] [32m[1mLinking CXX shared library libnavigros2__rosidl_typesupport_cpp.so[0m
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_typesupport_introspection_c[0m
+[ 60%] [32mBuilding C object CMakeFiles/navigros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigros2/msg/detail/float_list__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/navigros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigros2/msg/detail/feature_locations__type_support.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/navigros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigros2/srv/detail/set_dist__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/navigros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigros2/srv/detail/set_clock_gain__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/navigros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigros2/msg/detail/alignment__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/navigros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigros2/action/detail/map_repeater__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/navigros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigros2/action/detail/map_maker__type_support.c.o[0m
+[ 67%] Built target navigros2__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_typesupport_fastrtps_c[0m
+[ 68%] [32m[1mLinking C shared library libnavigros2__rosidl_typesupport_introspection_c.so[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigros2/msg/detail/alignment__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigros2/msg/detail/feature_locations__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigros2/srv/detail/set_clock_gain__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigros2/srv/detail/set_dist__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigros2/action/detail/map_maker__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigros2/msg/detail/float_list__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigros2/action/detail/map_repeater__type_support_c.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library libnavigros2__rosidl_typesupport_introspection_cpp.so[0m
+[ 78%] Built target navigros2__rosidl_typesupport_introspection_c
+[ 78%] Built target navigros2__rosidl_typesupport_introspection_cpp
+[ 79%] [32m[1mLinking CXX shared library libnavigros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 81%] [32m[1mLinking CXX shared library libnavigros2__rosidl_typesupport_fastrtps_c.so[0m
+[ 81%] Built target navigros2__rosidl_typesupport_fastrtps_cpp
+[ 81%] Built target navigros2__rosidl_typesupport_fastrtps_c
+[ 81%] Built target navigros2
+[ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 82%] Built target navigros2__py
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_generator_py[0m
+[ 83%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_py.dir/rosidl_generator_py/navigros2/msg/_feature_locations_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_py.dir/rosidl_generator_py/navigros2/msg/_float_list_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_py.dir/rosidl_generator_py/navigros2/action/_map_maker_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_py.dir/rosidl_generator_py/navigros2/msg/_alignment_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_py.dir/rosidl_generator_py/navigros2/action/_map_repeater_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_py.dir/rosidl_generator_py/navigros2/srv/_set_dist_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/navigros2__rosidl_generator_py.dir/rosidl_generator_py/navigros2/srv/_set_clock_gain_s.c.o[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/navigros2/libnavigros2__rosidl_generator_py.so[0m
+[ 92%] Built target navigros2__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target navigros2__rosidl_typesupport_c__pyext[0m
+[ 93%] [32mBuilding C object CMakeFiles/navigros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/navigros2/_navigros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/navigros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navigros2/_navigros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/navigros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navigros2/_navigros2_s.ep.rosidl_typesupport_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/navigros2/navigros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/navigros2/navigros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/navigros2/navigros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target navigros2__rosidl_typesupport_c__pyext
+[100%] Built target navigros2__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target navigros2__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/ament_index/resource_index/rosidl_interfaces/navigros2
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/map_repeater.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__type_support.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__functions.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__struct.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__struct.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__functions.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__type_support.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__functions.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__functions.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/map_maker.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__type_support.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__functions.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__struct.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__type_support.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__struct.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__functions.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__functions.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__struct.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__functions.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__functions.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__functions.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__type_support.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/alignment.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/float_list.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/feature_locations.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__functions.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__type_support.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__functions.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__functions.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__functions.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__struct.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__struct.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__type_support.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/set_clock_gain.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/set_dist.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/library_path.sh
+-- Installing: /root/nav_migration/src/install/navigros2/share/navigros2/environment/library_path.dsv
+-- Installing: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_generator_c.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_generator_c.so" to ""
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__type_support.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__type_support.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__rosidl_typesupport_introspection_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__type_support.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__type_support.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__rosidl_typesupport_introspection_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__rosidl_typesupport_introspection_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__rosidl_typesupport_introspection_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__type_support.c
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__rosidl_typesupport_introspection_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__type_support.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__type_support.c
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__rosidl_typesupport_introspection_c.h
+-- Installing: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_c.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__traits.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__traits.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__builder.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__builder.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__struct.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__struct.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/map_maker.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/map_repeater.hpp
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__builder.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__struct.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__builder.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__struct.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__traits.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__builder.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__traits.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__struct.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__traits.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/feature_locations.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/float_list.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/alignment.hpp
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__builder.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__struct.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__struct.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__traits.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__builder.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__traits.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/set_dist.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/set_clock_gain.hpp
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/dds_fastrtps
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/dds_fastrtps
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/dds_fastrtps
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__type_support.cpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_maker__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/action/detail/map_repeater__type_support.cpp
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__type_support.cpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__type_support.cpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/feature_locations__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/float_list__type_support.cpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/msg/detail/alignment__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_dist__type_support.cpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/nav_migration/src/install/navigros2/include/navigros2/navigros2/srv/detail/set_clock_gain__type_support.cpp
+-- Installing: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_cpp.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/pythonpath.sh
+-- Installing: /root/nav_migration/src/install/navigros2/share/navigros2/environment/pythonpath.dsv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2-0.0.0-py3.10.egg-info
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/_map_repeater_s.c
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/_map_maker.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/_map_repeater.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/_map_maker_s.c
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/__init__.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_float_list.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_alignment_s.c
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_feature_locations.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_alignment.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_float_list_s.c
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/__init__.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_feature_locations_s.c
+-- Up-to-date: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/_set_clock_gain.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/_set_dist.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/_set_clock_gain_s.c
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/_set_dist_s.c
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/__init__.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/_navigros2_s.ep.rosidl_typesupport_c.c
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/_navigros2_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/_navigros2_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/__init__.py
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/libnavigros2__rosidl_generator_py.so
+Listing '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/__init__.py'...
+Listing '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/__init__.py'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/_map_maker.py'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/action/_map_repeater.py'...
+Listing '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/__init__.py'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_alignment.py'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_feature_locations.py'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/msg/_float_list.py'...
+Listing '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/__init__.py'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/_set_clock_gain.py'...
+Compiling '/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/srv/_set_dist.py'...
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/local/lib/python3.10/dist-packages/navigros2/navigros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_generator_py.so
+-- Set runtime path of "/root/nav_migration/src/install/navigros2/lib/libnavigros2__rosidl_generator_py.so" to ""
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/Alignment.idl
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/FeatureLocations.idl
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/FloatList.idl
+-- Installing: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetDist.idl
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetClockGain.idl
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/action/MapMaker.idl
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/action/MapRepeater.idl
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/Alignment.msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/FeatureLocations.msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/msg/FloatList.msg
+-- Installing: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetDist.srv
+-- Installing: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetDist_Request.msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetDist_Response.msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetClockGain.srv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetClockGain_Request.msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/srv/SetClockGain_Response.msg
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/action/MapMaker.action
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/action/MapRepeater.action
+-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/distance_ros.py
+-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/distance.py
+-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/histogram_viz.py
+-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/live_viz.py
+-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/matches_viz.py
+-- Installing: /root/nav_migration/src/install/navigros2/lib/navigros2/mapmaker_ros.py
+-- Up-to-date: /root/nav_migration/src/install/navigros2/lib/navigros2/repeater_ros.py
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/launch_node.py
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/navigros2_launch.py
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/__pycache__
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/__pycache__/launch_node.cpython-310.pyc
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/launcher.py
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/launch/navigros2-gui-launch.py
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/ament_index/resource_index/package_run_dependencies/navigros2
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/ament_index/resource_index/parent_prefix_path/navigros2
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/ament_prefix_path.sh
+-- Installing: /root/nav_migration/src/install/navigros2/share/navigros2/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/environment/path.sh
+-- Installing: /root/nav_migration/src/install/navigros2/share/navigros2/environment/path.dsv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/local_setup.bash
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/local_setup.sh
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/local_setup.zsh
+-- Installing: /root/nav_migration/src/install/navigros2/share/navigros2/local_setup.dsv
+-- Installing: /root/nav_migration/src/install/navigros2/share/navigros2/package.dsv
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/ament_index/resource_index/packages/navigros2
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_generator_cExport.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_generator_cppExport.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_generator_pyExport.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/export_navigros2__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2Config.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/cmake/navigros2Config-version.cmake
+-- Up-to-date: /root/nav_migration/src/install/navigros2/share/navigros2/package.xml

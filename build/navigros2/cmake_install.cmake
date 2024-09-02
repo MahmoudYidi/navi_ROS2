@@ -434,6 +434,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/root/nav_migration/src/navigros2/src/gui/histogram_viz.py"
     "/root/nav_migration/src/navigros2/src/gui/live_viz.py"
     "/root/nav_migration/src/navigros2/src/gui/matches_viz.py"
+    "/root/nav_migration/src/navigros2/src/master/mapmaker_ros.py"
+    "/root/nav_migration/src/navigros2/src/master/repeater_ros.py"
     )
 endif()
 
