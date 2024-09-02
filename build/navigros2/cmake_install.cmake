@@ -428,6 +428,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/navigros2" TYPE PROGRAM FILES
+    "/root/nav_migration/src/navigros2/src/distance/distance_ros.py"
+    "/root/nav_migration/src/navigros2/src/distance/distance.py"
+    "/root/nav_migration/src/navigros2/src/gui/histogram_viz.py"
+    "/root/nav_migration/src/navigros2/src/gui/live_viz.py"
+    "/root/nav_migration/src/navigros2/src/gui/matches_viz.py"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigros2/launch" TYPE DIRECTORY FILES "/root/nav_migration/src/navigros2/launch/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/root/nav_migration/src/build/navigros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/navigros2")
 endif()
 

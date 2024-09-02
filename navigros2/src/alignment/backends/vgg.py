@@ -1,12 +1,13 @@
 import tensorflow as tf
-from tensorflow.keras.applications import VGG16
+from tensorflow import keras
+from keras._tf_keras.keras.applications import VGG16
 from tensorflow.python.keras.backend import set_session
-from tensorflow.keras.applications import VGG19
-from tensorflow.keras.applications.vgg16 import preprocess_input
-from tensorflow.keras.preprocessing.image import load_img
-from tensorflow.keras.preprocessing.image import img_to_array
-from tensorflow.keras.models import Model
-from tensorflow.keras.layers import *
+from keras._tf_keras.keras.applications import VGG19
+from keras._tf_keras.keras.applications.vgg16 import preprocess_input
+from keras._tf_keras.keras.preprocessing.image import load_img
+from keras._tf_keras.keras.preprocessing.image import img_to_array
+from keras._tf_keras.keras.models import Model
+from keras._tf_keras.keras.layers import *
 #import matplotlib.pyplot as plt
 import numpy as np
 import cv2
@@ -30,7 +31,7 @@ for layers in basemodel.layers:
 for idx in range(len(basemodel.layers)):
     print(basemodel.get_layer(index=idx).name)
 
-from tensorflow.keras import backend
+from keras._tf_keras.keras import backend
 #backend.clear_session()
 
 sess = tf.keras.backend.get_session()

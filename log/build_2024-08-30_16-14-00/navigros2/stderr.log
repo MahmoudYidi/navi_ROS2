@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:435 (file):
+  file INSTALL cannot find
+  "/root/nav_migration/src/navigros2/scripts/distance_ros.py": No such file
+  or directory.
+
+[0m
