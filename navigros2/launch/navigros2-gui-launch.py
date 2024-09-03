@@ -18,7 +18,8 @@ def generate_launch_description():
         name='histogram_viz',
         output='screen',
         respawn=True,
-        parameters=[{}]
+        parameters=[{}],
+        namespace='navigros2'
     )
 
     live_viz_node = Node(
@@ -29,7 +30,8 @@ def generate_launch_description():
         respawn=True,
         parameters=[{
             'camera_topic': LaunchConfiguration('camera_topic')
-        }]
+        }],
+        namespace='navigros2'
     )
 
     matches_viz_node = Node(
@@ -38,7 +40,8 @@ def generate_launch_description():
         name='matches_viz',
         output='screen',
         respawn=True,
-        parameters=[{}]
+        parameters=[{}],
+        namespace='navigros2'
     )
 
     return LaunchDescription([

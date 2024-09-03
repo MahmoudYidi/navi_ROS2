@@ -66,6 +66,31 @@ def generate_launch_description():
             namespace='navigros2'
         ),
 
+        Node(
+        package='navigros2',
+        executable='navigator_ros.py',
+        name='navigator',
+        parameters=[
+            {'velocity_gain': 1.0},
+            {'turn_gain': 0.0005},
+            {'use_uncertainty': True},
+            {'cmd_vel_topic': '/cmd_vel'}
+        ],
+        output='screen',
+        namespace='navigros2'
+        ),
+
+        Node(
+            package='navigros2',  # Replace with your package name
+            executable='preprocess_ros.py',    # Replace with your node executable
+            name='preprocessor',
+            output='screen',
+            parameters=[{
+                'hist_equal': False  # Set default value of the parameter here
+            }],
+            namespace='navigros2'
+        ),
+
 
 
         # Navigator node

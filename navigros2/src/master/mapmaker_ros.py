@@ -114,12 +114,12 @@ class ActionServerNode(Node):
         result = MapMaker.Result()
         #self.get_logger().info(f"Received goal: {goal.map_name}, start: {goal.start}")
 
-       # if self.img is None:
-        #    self.get_logger().error("WARNING: no image coming through, ignoring")
-         #   result = MapMaker.Result()
-          #  result.success = False
-           # goal_handle.abort()  # No parameters needed
-         #   return
+        if self.img is None:
+            self.get_logger().error("WARNING: no image coming through, ignoring")
+            result = MapMaker.Result()
+            result.success = False
+            goal_handle.abort()  # No parameters needed
+            return
 
         if not goal.map_name:
             self.get_logger().warn("Missing map name, ignoring")

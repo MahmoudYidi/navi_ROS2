@@ -46,6 +46,9 @@ install(PROGRAMS
   src/gui/matches_viz.py
   src/master/mapmaker_ros.py
   src/master/repeater_ros.py
+  src/navigator/navigator.py
+  src/navigator/navigator_ros.py
+  src/preprocess/preprocess_ros.py
 
 
 
