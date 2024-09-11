@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:431 (file):
+  file INSTALL cannot find
+  "/root/nav_migration/src/navigros2/src/alignment/backend": No such file or
+  directory.
+
+[0m

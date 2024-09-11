@@ -1,0 +1,106 @@
+[0.033s] Invoking command in '/root/nav_migration/src/build/husky_base': AMENT_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/nav_migration/src/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/nav_migration/src/husky-humble/husky_base -DCMAKE_INSTALL_PREFIX=/root/nav_migration/src/install/husky_base
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.279s] -- The CXX compiler identification is GNU 11.4.0
+[0.355s] -- Detecting C compiler ABI info
+[0.425s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.429s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.521s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.525s] -- Detecting CXX compile features
+[0.526s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.636s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.702s] -- Found controller_interface: 2.43.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.810s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.814s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.821s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.842s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.689s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.693s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.722s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.754s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.757s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.828s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.831s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.837s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.879s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.892s] -- Looking for pthread.h
+[1.973s] -- Looking for pthread.h - found
+[1.973s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.051s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.052s] -- Found Threads: TRUE  
+[2.103s] -- Found controller_manager: 2.43.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.139s] -- Found husky_msgs: 1.0.8 (/root/nav_migration/src/install/husky_msgs/share/husky_msgs/cmake)
+[2.150s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.169s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.183s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[2.187s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.284s] -- Configuring done
+[2.331s] -- Generating done
+[2.332s] -- Build files have been written to: /root/nav_migration/src/build/husky_base
+[2.341s] Invoked command in '/root/nav_migration/src/build/husky_base' returned '0': AMENT_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/nav_migration/src/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/nav_migration/src/husky-humble/husky_base -DCMAKE_INSTALL_PREFIX=/root/nav_migration/src/install/husky_base
+[2.342s] Invoking command in '/root/nav_migration/src/build/husky_base': AMENT_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/nav_migration/src/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/nav_migration/src/build/husky_base -- -j22 -l22
+[2.375s] [ 16%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy_wrapper.cpp.o[0m
+[2.375s] [ 16%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/husky_hardware.cpp.o[0m
+[2.375s] [ 25%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message_data.cpp.o[0m
+[2.376s] [ 33%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message.cpp.o[0m
+[2.377s] [ 41%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Transport.cpp.o[0m
+[2.377s] [ 50%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Logger.cpp.o[0m
+[2.379s] [ 58%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message_cmd.cpp.o[0m
+[2.379s] [ 66%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Number.cpp.o[0m
+[2.379s] [ 75%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/linux_serial.cpp.o[0m
+[2.379s] [ 83%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/crc.cpp.o[0m
+[2.382s] [ 91%] [32mBuilding CXX object CMakeFiles/husky_hardware.dir/src/horizon_legacy/Message_request.cpp.o[0m
+[4.649s] [100%] [32m[1mLinking CXX shared library libhusky_hardware.so[0m
+[4.808s] [100%] Built target husky_hardware
+[4.815s] Invoked command in '/root/nav_migration/src/build/husky_base' returned '0': AMENT_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/nav_migration/src/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/nav_migration/src/build/husky_base -- -j22 -l22
+[4.841s] Invoking command in '/root/nav_migration/src/build/husky_base': AMENT_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/nav_migration/src/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/nav_migration/src/build/husky_base
+[4.844s] -- Install configuration: ""
+[4.845s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/husky_hardware.xml
+[4.845s] -- Installing: /root/nav_migration/src/install/husky_base/lib/libhusky_hardware.so
+[4.846s] -- Set runtime path of "/root/nav_migration/src/install/husky_base/lib/libhusky_hardware.so" to ""
+[4.846s] -- Installing: /root/nav_migration/src/install/husky_base/include
+[4.846s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base
+[4.846s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/husky_diagnostics.h
+[4.846s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy_wrapper.h
+[4.846s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/husky_hardware.hpp
+[4.846s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy
+[4.846s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/Transport.h
+[4.846s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/Message_data.h
+[4.846s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/crc.h
+[4.846s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/serial.h
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/Number.h
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/Message_request.h
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/clearpath.h
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/Message.h
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/Message_cmd.h
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/Logger.h
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/include/husky_base/horizon_legacy/Exception.h
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/launch
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/launch/base.launch.py
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/environment/library_path.sh
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/environment/library_path.dsv
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/share/ament_index/resource_index/package_run_dependencies/husky_base
+[4.847s] -- Installing: /root/nav_migration/src/install/husky_base/share/ament_index/resource_index/parent_prefix_path/husky_base
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/environment/ament_prefix_path.sh
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/environment/ament_prefix_path.dsv
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/environment/path.sh
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/environment/path.dsv
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/local_setup.bash
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/local_setup.sh
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/local_setup.zsh
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/local_setup.dsv
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/package.dsv
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/ament_index/resource_index/packages/husky_base
+[4.848s] -- Installing: /root/nav_migration/src/install/husky_base/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/husky_base
+[4.849s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.849s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/cmake/ament_cmake_export_libraries-extras.cmake
+[4.849s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.849s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/cmake/husky_baseConfig.cmake
+[4.849s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/cmake/husky_baseConfig-version.cmake
+[4.849s] -- Installing: /root/nav_migration/src/install/husky_base/share/husky_base/package.xml
+[4.850s] Invoked command in '/root/nav_migration/src/build/husky_base' returned '0': AMENT_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/nav_migration/src/install/husky_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/nav_migration/src/build/husky_base

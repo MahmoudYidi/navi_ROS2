@@ -1,28 +1,29 @@
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, LogInfo
+from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
         # Declare launch arguments
-        DeclareLaunchArgument('camera_topic', default_value='/realsense/color/image_raw', description='Camera topic name'),
-        DeclareLaunchArgument('cmd_vel_pub', default_value='/navigros2/cmd_vel', description='The topic that cmd_vel messages will be published on when replaying a map (can be the same as cmd_vel_sub)'),
-        DeclareLaunchArgument('cmd_vel_sub', default_value='/husky_velocity_controller/cmd_vel', description='The topic that cmd_vel messages will be recorded from when making a map (can be the same as cmd_vel_pub)'),
+        DeclareLaunchArgument('camera_topic', default_value='/realsense_rgb_camera/image_raw', description='Camera topic name'),
+        DeclareLaunchArgument('cmd_vel_pub', default_value='/cmd_vel', description='The topic that cmd_vel messages will be published on when replaying a map (can be the same as cmd_vel_sub)'),
+        DeclareLaunchArgument('cmd_vel_sub', default_value='/cmd_vel', description='The topic that cmd_vel messages will be recorded from when making a map (can be the same as cmd_vel_pub)'),
         DeclareLaunchArgument('odom_topic', default_value='/husky_velocity_controller/odom', description='The topic that odometry information will be read from'),
         DeclareLaunchArgument('additional_record_topics', default_value='/sound_play/goal', description='Space separated topics names for additional recording'),
-
-       
+        DeclareLaunchArgument('alignment_method', default_value='SIAM', description='Alignment method to use'),  
 
         # Alignment node
-        #Node(
-         #   package='navigros2',
-          #  executable='alignment-ros-1.py',
-           # name='alignment',
-            #respawn=False,
-            #output='screen',
-            #arguments=['$(find navigros2)/src/alignment/config.yaml', '-OO']
-        #),
+        Node(
+            package='navigros2',
+            executable='alignment_ros.py',
+            name='alignment',
+            output='screen',
+            parameters=[{
+                'feature_type': LaunchConfiguration('alignment_method'),
+            }],
+            namespace='navigros2'
+        ),
 
         # Distance node
         Node(
@@ -30,6 +31,7 @@ def generate_launch_description():
             executable='distance_ros.py',
             name='distance',
             respawn=True,
+            output='screen',
             arguments=['-OO'],
             parameters=[{
                 'cmd_vel_topic': LaunchConfiguration('cmd_vel_sub'),
@@ -50,6 +52,7 @@ def generate_launch_description():
                 'cmd_vel_topic': LaunchConfiguration('cmd_vel_sub'),
                 'additional_record_topics': LaunchConfiguration('additional_record_topics')
             }],
+            output='screen',
             namespace='navigros2'
         ),
 
@@ -63,54 +66,34 @@ def generate_launch_description():
             parameters=[{
                 'camera_topic': LaunchConfiguration('camera_topic')
             }],
+            output='screen',
             namespace='navigros2'
         ),
 
+        # Navigator node
         Node(
-        package='navigros2',
-        executable='navigator_ros.py',
-        name='navigator',
-        parameters=[
-            {'velocity_gain': 1.0},
-            {'turn_gain': 0.0005},
-            {'use_uncertainty': True},
-            {'cmd_vel_topic': '/cmd_vel'}
-        ],
-        output='screen',
-        namespace='navigros2'
+            package='navigros2',
+            executable='navigator_ros.py',
+            name='navigator',
+            parameters=[
+                {'velocity_gain': 1.0},
+                {'turn_gain': 0.0005},
+                {'use_uncertainty': True},
+                {'cmd_vel_topic': '/cmd_vel'}
+            ],
+            output='screen',
+            namespace='navigros2'
         ),
 
+        # Preprocessor node
         Node(
-            package='navigros2',  # Replace with your package name
-            executable='preprocess_ros.py',    # Replace with your node executable
+            package='navigros2',  
+            executable='preprocess_ros.py',    
             name='preprocessor',
             output='screen',
             parameters=[{
-                'hist_equal': False  # Set default value of the parameter here
+                'hist_equal': False 
             }],
             namespace='navigros2'
         ),
-
-
-
-        # Navigator node
-       # Node(
-        #    package='navigros2',
-         #   executable='navigator_ros.py',
-          #  name='navigator',
-           # respawn=True,
-            #arguments=['-OO'],
-            #parameters=[{
-           #     'cmd_vel_topic': LaunchConfiguration('cmd_vel_pub')
-            #}]
-        #),
-
-        # Preprocess node
-       # Node(
-       #     package='bearnav2',
-       #     executable='preprocess-ros-1.py',
-       #     name='preprocess',
-       #     respawn=True,
-       #     arguments=['-OO']
-       # ),
     ])

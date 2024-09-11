@@ -428,6 +428,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/navigros2" TYPE DIRECTORY FILES "/root/nav_migration/src/navigros2/src/alignment/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/navigros2" TYPE PROGRAM FILES
     "/root/nav_migration/src/navigros2/src/distance/distance_ros.py"
     "/root/nav_migration/src/navigros2/src/distance/distance.py"
@@ -439,6 +443,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/root/nav_migration/src/navigros2/src/navigator/navigator.py"
     "/root/nav_migration/src/navigros2/src/navigator/navigator_ros.py"
     "/root/nav_migration/src/navigros2/src/preprocess/preprocess_ros.py"
+    "/root/nav_migration/src/navigros2/src/alignment/histogram.py"
+    "/root/nav_migration/src/navigros2/src/alignment/alignment.py"
+    "/root/nav_migration/src/navigros2/src/alignment/alignment_ros.py"
     )
 endif()
 

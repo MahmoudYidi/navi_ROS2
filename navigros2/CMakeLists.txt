@@ -28,14 +28,20 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetClockGain.srv"
   "action/MapMaker.action"
   "action/MapRepeater.action"
-  DEPENDENCIES std_msgs # Add packages that above messages depend on,
+  DEPENDENCIES
+    std_msgs
+    action_msgs # Add packages that above messages depend on,
 )
 
 include_directories(
   ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
-
+# Install Python modules
+install(DIRECTORY
+  src/alignment/
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 
 install(PROGRAMS
@@ -49,6 +55,9 @@ install(PROGRAMS
   src/navigator/navigator.py
   src/navigator/navigator_ros.py
   src/preprocess/preprocess_ros.py
+  src/alignment/histogram.py
+  src/alignment/alignment.py
+  src/alignment/alignment_ros.py
 
 
 

@@ -1,0 +1,15 @@
+/root/nav_migration/src/install/husky_robot/share/ament_index/resource_index/package_run_dependencies/husky_robot
+/root/nav_migration/src/install/husky_robot/share/ament_index/resource_index/parent_prefix_path/husky_robot
+/root/nav_migration/src/install/husky_robot/share/husky_robot/environment/ament_prefix_path.sh
+/root/nav_migration/src/install/husky_robot/share/husky_robot/environment/ament_prefix_path.dsv
+/root/nav_migration/src/install/husky_robot/share/husky_robot/environment/path.sh
+/root/nav_migration/src/install/husky_robot/share/husky_robot/environment/path.dsv
+/root/nav_migration/src/install/husky_robot/share/husky_robot/local_setup.bash
+/root/nav_migration/src/install/husky_robot/share/husky_robot/local_setup.sh
+/root/nav_migration/src/install/husky_robot/share/husky_robot/local_setup.zsh
+/root/nav_migration/src/install/husky_robot/share/husky_robot/local_setup.dsv
+/root/nav_migration/src/install/husky_robot/share/husky_robot/package.dsv
+/root/nav_migration/src/install/husky_robot/share/ament_index/resource_index/packages/husky_robot
+/root/nav_migration/src/install/husky_robot/share/husky_robot/cmake/husky_robotConfig.cmake
+/root/nav_migration/src/install/husky_robot/share/husky_robot/cmake/husky_robotConfig-version.cmake
+/root/nav_migration/src/install/husky_robot/share/husky_robot/package.xml

@@ -13,6 +13,9 @@ from cv_bridge import CvBridge
 from navigros2.action import MapMaker
 from navigros2.srv import SetDist
 from rosbag2_py import SequentialWriter, StorageOptions, ConverterOptions
+from rclpy.serialization import serialize_message
+from rosbag2_py import TopicMetadata
+from rclpy.clock import Clock
 
 class ActionServerNode(Node):
 
@@ -60,7 +63,7 @@ class ActionServerNode(Node):
         self.joy_sub = self.create_subscription(Twist, self.joy_topic, self.joy_cb, 10)
         
         self.get_logger().info("Starting mapmaker action server")
-        self.action_server = ActionServer(self, MapMaker, 'mapmaker', self.action_cb)
+        self.action_server = ActionServer(self, MapMaker, '/navigros2/mapmaker', self.action_cb)
         self.get_logger().info("Server started, awaiting goal")
 
     def get_message_type(self, topic):
@@ -83,7 +86,7 @@ class ActionServerNode(Node):
 
     def image_cb(self, msg):
         self.img = self.br.imgmsg_to_cv2(msg)
-        self.check_shutdown()
+        #self.check_shutdown()
 
     def distance_cb(self, msg):
         if not self.is_mapping or self.img is None:
@@ -106,20 +109,36 @@ class ActionServerNode(Node):
         if self.is_mapping:
             self.get_logger().debug("Adding joy")
             if self.bag_writer:
-                self.bag_writer.write(self.joy_topic, msg)
+                try:
+                    # Serialize the Twist message
+                    serialized_msg = serialize_message(msg)
+                    
+                    # Get current time from the ROS 2 clock
+                    clock = Clock()
+                    current_time = clock.now().nanoseconds
+                    
+                    # Write the serialized message to the bag
+                    self.bag_writer.write(self.joy_topic, serialized_msg, current_time)
+                except Exception as e:
+                    self.get_logger().error(f"Failed to write to bag: {e}")
 
     def action_cb(self, goal_handle):
         self.get_logger().info(f"Action callback triggered with goal: {goal_handle.request}")
         goal = goal_handle.request
         result = MapMaker.Result()
         #self.get_logger().info(f"Received goal: {goal.map_name}, start: {goal.start}")
-
+        # Check if the goal has been preempted
+        if not goal_handle.is_active:
+            self.get_logger().info("Goal preempted")
+            self.shutdown()
+            return result
+        
         if self.img is None:
             self.get_logger().error("WARNING: no image coming through, ignoring")
             result = MapMaker.Result()
             result.success = False
             goal_handle.abort()  # No parameters needed
-            return
+            return result
 
         if not goal.map_name:
             self.get_logger().warn("Missing map name, ignoring")
@@ -142,7 +161,8 @@ class ActionServerNode(Node):
                 return result  # Return the result
 
             self.get_logger().info("Starting mapping")
-            self.bag_writer = self.create_bag_writer(os.path.join(goal.map_name, f"{goal.map_name}.db3"))
+            #self.bag_writer = self.create_bag_writer(os.path.join(goal.map_name, f"{goal.map_name}.db3"))
+            self.bag_writer = self.create_bag_writer(os.path.join(goal.map_name,goal.map_name))
             self.map_name = goal.map_name
             self.next_step = 0
             self.last_distance = None
@@ -160,7 +180,9 @@ class ActionServerNode(Node):
             time.sleep(2)
             self.is_mapping = False
             if self.bag_writer:
-                self.bag_writer.close()  # Close the rosbag2 writer properly
+                self.bag_writer = None 
+                #self.bag_writer.reset()
+                #self.bag_writer.close()  # Close the rosbag2 writer properly
 
             result.success = True
             goal_handle.succeed()
@@ -171,16 +193,33 @@ class ActionServerNode(Node):
         converter_options = ConverterOptions('', '')
         bag_writer = SequentialWriter()
         bag_writer.open(storage_options, converter_options)
+
+        # Define the metadata for the topics
+        cmd_vel_metadata = TopicMetadata(
+            name='/cmd_vel', 
+            type='geometry_msgs/msg/Twist', 
+            serialization_format='cdr'
+        )
+
+        # Create the topic in the bag
+        bag_writer.create_topic(cmd_vel_metadata)
+
         return bag_writer
 
+
     def check_shutdown(self):
-        if self.action_server.is_preempt_requested():
-            self.shutdown()
+        #if self.action_server.is_preempt_requested:
+         #   self.action_server.set_preempted()
+          #  self.get_logger().info('Action preempted')
+           # self.shutdown()
+        pass
 
     def shutdown(self):
         self.is_mapping = False
-        if self.bag_writer is not None:
-            self.bag_writer.close()  # Close the rosbag2 writer properly
+        if self.bag_writer:
+            self.bag_writer = None  # Discard the writer instance
+        self.get_logger().info('Node shutting down...')
+
 
 def main(args=None):
     rclpy.init(args=args)

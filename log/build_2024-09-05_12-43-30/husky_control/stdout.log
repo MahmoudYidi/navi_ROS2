@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/nav_migration/src/build/husky_control
+-- Install configuration: ""
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config/public_interface.yaml
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config/teleop_ps4.yaml
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config/localization.yaml
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config/control.yaml
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config/twist_mux.yaml
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config/teleop_logitech.yaml
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config/teleop_interactive_markers.yaml
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config/empty.yaml
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config/gazebo_interface.yaml
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/config/imu_filter.yaml
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/launch
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/launch/control.launch
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/launch/teleop_joy.launch.py
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/launch/control.launch.py
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/launch/teleop_base.launch.py
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/launch/teleop.launch
+-- Installing: /root/nav_migration/src/install/husky_control/share/ament_index/resource_index/package_run_dependencies/husky_control
+-- Installing: /root/nav_migration/src/install/husky_control/share/ament_index/resource_index/parent_prefix_path/husky_control
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/environment/ament_prefix_path.sh
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/environment/ament_prefix_path.dsv
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/environment/path.sh
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/environment/path.dsv
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/local_setup.bash
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/local_setup.sh
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/local_setup.zsh
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/local_setup.dsv
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/package.dsv
+-- Installing: /root/nav_migration/src/install/husky_control/share/ament_index/resource_index/packages/husky_control
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/cmake/husky_controlConfig.cmake
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/cmake/husky_controlConfig-version.cmake
+-- Installing: /root/nav_migration/src/install/husky_control/share/husky_control/package.xml

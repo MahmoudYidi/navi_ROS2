@@ -1,0 +1,6 @@
+{
+  "package_name": "husky_msgs",
+  "non_idl_tuples": [
+    "/root/nav_migration/src/husky-humble/husky_msgs:msg/HuskyStatus.msg"
+  ]
+}
