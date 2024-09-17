@@ -43,10 +43,19 @@ class AlignmentNode(Node):
         alignment, uncertainty, hist = self.align.process(self.imgABuf, imgB)
         m = Alignment()
         m.alignment = alignment
-        m.uncertainty = uncertainty
+        m.uncertainty = float(uncertainty)
+
+        #m.uncertainty = uncertainty
         self.pub.publish(m)
 
         hm = FloatList()
+        # Flatten the hist array if it's a NumPy array or nested list
+        if isinstance(hist, np.ndarray):
+            hist = hist.flatten().tolist()  # Convert NumPy array to flat list
+        else:
+            hist = [float(h) for sublist in hist for h in sublist]  # Flatten list of lists
+        #self.get_logger().info(f"hist content: {hist}")
+        #hist = [float(h) for h in hist]  # Ensures all elements are floats
         hm.data = hist
         self.pub_hist.publish(hm)
 

@@ -7,6 +7,9 @@
 /root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/launch/gazebo.launch.py
 /root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/launch/__pycache__/gazebo.launch.cpython-310.pyc
 /root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/launch/husky_playpen.launch
+/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/launch/aoc_world.launch.py
+/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/worlds/aoc_world2.world
+/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/worlds/aoc_world.world
 /root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/worlds/clearpath_playpen.world
 /root/nav_migration/src/install/husky_gazebo/share/ament_index/resource_index/package_run_dependencies/husky_gazebo
 /root/nav_migration/src/install/husky_gazebo/share/ament_index/resource_index/parent_prefix_path/husky_gazebo

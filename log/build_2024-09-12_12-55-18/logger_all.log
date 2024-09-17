@@ -1,0 +1,861 @@
+[0.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f55ce94d2d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f55ceab6b90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f55ceab6b90>>)
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.190s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/nav_migration/src'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_base) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_base) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_base) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_base) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_base) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_base) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_base) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_base) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_base) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'husky-humble/husky_base' with type 'ros.ament_cmake' and name 'husky_base'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_bringup) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_bringup) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_bringup) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_bringup) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_bringup) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_bringup) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_bringup) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_bringup) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'husky-humble/husky_bringup' with type 'ros.ament_cmake' and name 'husky_bringup'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_control) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_control) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_control) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_control) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_control) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_control) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_control) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_control) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_control) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'husky-humble/husky_control' with type 'ros.ament_cmake' and name 'husky_control'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_description) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_description) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_description) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_description) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_description) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_description) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_description) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_description) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_description) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'husky-humble/husky_description' with type 'ros.ament_cmake' and name 'husky_description'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_desktop) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_desktop) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_desktop) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_desktop) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_desktop) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_desktop) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_desktop) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_desktop) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'husky-humble/husky_desktop' with type 'ros.ament_cmake' and name 'husky_desktop'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_gazebo) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_gazebo) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_gazebo) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_gazebo) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_gazebo) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_gazebo) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_gazebo) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_gazebo) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'husky-humble/husky_gazebo' with type 'ros.ament_cmake' and name 'husky_gazebo'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_msgs) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_msgs) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_msgs) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_msgs) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_msgs) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_msgs) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_msgs) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_msgs) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'husky-humble/husky_msgs' with type 'ros.ament_cmake' and name 'husky_msgs'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_navigation) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_navigation) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_robot) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_robot) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_robot) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_robot) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_robot) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_robot) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_robot) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_robot) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'husky-humble/husky_robot' with type 'ros.ament_cmake' and name 'husky_robot'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_simulator) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_simulator) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_simulator) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_simulator) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_simulator) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_simulator) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_simulator) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_simulator) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'husky-humble/husky_simulator' with type 'ros.ament_cmake' and name 'husky_simulator'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_viz) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_viz) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_viz) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_viz) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_viz) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_viz) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_viz) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(husky-humble/husky_viz) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'husky-humble/husky_viz' with type 'ros.ament_cmake' and name 'husky_viz'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(map_t/map_t) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(navigros2) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(navigros2) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(navigros2) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(navigros2) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(navigros2) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(navigros2) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(navigros2) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(navigros2) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(navigros2) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'navigros2' with type 'ros.ament_cmake' and name 'navigros2'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(testing_mapi/testing_mapi) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.238s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /root/nav_migration/src/install
+[0.238s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /root/clearpath_ws/install
+[0.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_description' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_description' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'husky_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/husky_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/husky_description', 'merge_install': False, 'path': '/root/nav_migration/src/husky-humble/husky_description', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_msgs' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_msgs' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'husky_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'husky_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/husky_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/husky_msgs', 'merge_install': False, 'path': '/root/nav_migration/src/husky-humble/husky_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'navigros2' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'navigros2' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'navigros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'navigros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'navigros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'navigros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'navigros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'navigros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'navigros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'navigros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/navigros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/navigros2', 'merge_install': False, 'path': '/root/nav_migration/src/navigros2', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_base' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_base' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'husky_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/husky_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/husky_base', 'merge_install': False, 'path': '/root/nav_migration/src/husky-humble/husky_base', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_control' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_control' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'husky_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/husky_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/husky_control', 'merge_install': False, 'path': '/root/nav_migration/src/husky-humble/husky_control', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_viz' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_viz' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_viz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_viz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_viz' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_viz' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_viz' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_viz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'husky_viz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'husky_viz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/husky_viz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/husky_viz', 'merge_install': False, 'path': '/root/nav_migration/src/husky-humble/husky_viz', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_bringup' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_bringup' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'husky_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/husky_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/husky_bringup', 'merge_install': False, 'path': '/root/nav_migration/src/husky-humble/husky_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_desktop' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_desktop' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_desktop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_desktop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_desktop' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_desktop' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_desktop' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_desktop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_desktop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'husky_desktop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/husky_desktop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/husky_desktop', 'merge_install': False, 'path': '/root/nav_migration/src/husky-humble/husky_desktop', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'husky_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/husky_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/husky_gazebo', 'merge_install': False, 'path': '/root/nav_migration/src/husky-humble/husky_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_robot' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_robot' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'husky_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'husky_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/husky_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/husky_robot', 'merge_install': False, 'path': '/root/nav_migration/src/husky-humble/husky_robot', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_simulator' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_simulator' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'husky_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'husky_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/nav_migration/src/build/husky_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/nav_migration/src/install/husky_simulator', 'merge_install': False, 'path': '/root/nav_migration/src/husky-humble/husky_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.271s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/husky-humble/husky_description' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/husky-humble/husky_description'
+[0.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.278s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/husky-humble/husky_msgs' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/husky-humble/husky_msgs'
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/navigros2' with build type 'ament_cmake'
+[0.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/navigros2'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_description -- -j22 -l22
+[0.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_msgs -- -j22 -l22
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/navigros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/navigros2 -- -j22 -l22
+[0.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_description -- -j22 -l22
+[0.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_description
+[0.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_description)
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_description
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description' for CMake module files
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description' for CMake config files
+[0.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_description', 'cmake_prefix_path')
+[0.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_description/share/husky_description/hook/cmake_prefix_path.ps1'
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_description/share/husky_description/hook/cmake_prefix_path.dsv'
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_description/share/husky_description/hook/cmake_prefix_path.sh'
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description/bin'
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description/lib/pkgconfig/husky_description.pc'
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description/lib/python3.10/site-packages'
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description/bin'
+[0.370s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_description/share/husky_description/package.ps1'
+[0.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_description/share/husky_description/package.dsv'
+[0.373s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_description/share/husky_description/package.sh'
+[0.374s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_description/share/husky_description/package.bash'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_description/share/husky_description/package.zsh'
+[0.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_description/share/colcon-core/packages/husky_description)
+[0.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_description)
+[0.393s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description' for CMake module files
+[0.393s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description' for CMake config files
+[0.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_description', 'cmake_prefix_path')
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_description/share/husky_description/hook/cmake_prefix_path.ps1'
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_description/share/husky_description/hook/cmake_prefix_path.dsv'
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_description/share/husky_description/hook/cmake_prefix_path.sh'
+[0.395s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description/bin'
+[0.395s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description/lib/pkgconfig/husky_description.pc'
+[0.395s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description/lib/python3.10/site-packages'
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_description/bin'
+[0.396s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_description/share/husky_description/package.ps1'
+[0.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_description/share/husky_description/package.dsv'
+[0.397s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_description/share/husky_description/package.sh'
+[0.397s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_description/share/husky_description/package.bash'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_description/share/husky_description/package.zsh'
+[0.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_description/share/colcon-core/packages/husky_description)
+[0.399s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/husky-humble/husky_control' with build type 'ament_cmake'
+[0.399s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/husky-humble/husky_control'
+[0.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/husky-humble/husky_viz' with build type 'ament_cmake'
+[0.404s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/husky-humble/husky_viz'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_control': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_control -- -j22 -l22
+[0.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_viz': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_viz -- -j22 -l22
+[0.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_control' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_control -- -j22 -l22
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_viz' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_viz -- -j22 -l22
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_control': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_control
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_viz': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_viz
+[0.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_control)
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control' for CMake module files
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_control' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_control
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control' for CMake config files
+[0.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_control', 'cmake_prefix_path')
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_control/share/husky_control/hook/cmake_prefix_path.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_control/share/husky_control/hook/cmake_prefix_path.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_control/share/husky_control/hook/cmake_prefix_path.sh'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control/bin'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control/lib/pkgconfig/husky_control.pc'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control/lib/python3.10/site-packages'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control/bin'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_control/share/husky_control/package.ps1'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_control/share/husky_control/package.dsv'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_control/share/husky_control/package.sh'
+[0.476s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_control/share/husky_control/package.bash'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_control/share/husky_control/package.zsh'
+[0.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_control/share/colcon-core/packages/husky_control)
+[0.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_viz)
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz' for CMake module files
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_viz' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_viz
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz' for CMake config files
+[0.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_viz', 'cmake_prefix_path')
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_viz/share/husky_viz/hook/cmake_prefix_path.ps1'
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_viz/share/husky_viz/hook/cmake_prefix_path.dsv'
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_viz/share/husky_viz/hook/cmake_prefix_path.sh'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz/bin'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz/lib/pkgconfig/husky_viz.pc'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz/lib/python3.10/site-packages'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz/bin'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_viz/share/husky_viz/package.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_viz/share/husky_viz/package.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_viz/share/husky_viz/package.sh'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_viz/share/husky_viz/package.bash'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_viz/share/husky_viz/package.zsh'
+[0.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_viz/share/colcon-core/packages/husky_viz)
+[0.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_control)
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control' for CMake module files
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control' for CMake config files
+[0.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_control', 'cmake_prefix_path')
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_control/share/husky_control/hook/cmake_prefix_path.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_control/share/husky_control/hook/cmake_prefix_path.dsv'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_control/share/husky_control/hook/cmake_prefix_path.sh'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control/bin'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control/lib/pkgconfig/husky_control.pc'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control/lib/python3.10/site-packages'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_control/bin'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_control/share/husky_control/package.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_control/share/husky_control/package.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_control/share/husky_control/package.sh'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_control/share/husky_control/package.bash'
+[0.497s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_control/share/husky_control/package.zsh'
+[0.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_control/share/colcon-core/packages/husky_control)
+[0.499s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/husky-humble/husky_gazebo' with build type 'ament_cmake'
+[0.499s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/husky-humble/husky_gazebo'
+[0.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_viz)
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz' for CMake module files
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz' for CMake config files
+[0.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_viz', 'cmake_prefix_path')
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_viz/share/husky_viz/hook/cmake_prefix_path.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_viz/share/husky_viz/hook/cmake_prefix_path.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_viz/share/husky_viz/hook/cmake_prefix_path.sh'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz/bin'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz/lib/pkgconfig/husky_viz.pc'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz/lib/python3.10/site-packages'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_viz/bin'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_viz/share/husky_viz/package.ps1'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_viz/share/husky_viz/package.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_viz/share/husky_viz/package.sh'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_viz/share/husky_viz/package.bash'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_viz/share/husky_viz/package.zsh'
+[0.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_viz/share/colcon-core/packages/husky_viz)
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_gazebo': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_gazebo -- -j22 -l22
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/navigros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/navigros2 -- -j22 -l22
+[0.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_msgs -- -j22 -l22
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_gazebo' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_gazebo -- -j22 -l22
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_gazebo': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_gazebo
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_msgs
+[0.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_gazebo)
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo' for CMake module files
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_gazebo' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_gazebo
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo' for CMake config files
+[0.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_gazebo', 'cmake_prefix_path')
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.sh'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo/bin'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo/lib/pkgconfig/husky_gazebo.pc'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo/lib/python3.10/site-packages'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo/bin'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/package.ps1'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/package.dsv'
+[0.587s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/package.sh'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/package.bash'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/package.zsh'
+[0.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_gazebo/share/colcon-core/packages/husky_gazebo)
+[0.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_gazebo)
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo' for CMake module files
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo' for CMake config files
+[0.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_gazebo', 'cmake_prefix_path')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/hook/cmake_prefix_path.sh'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo/bin'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo/lib/pkgconfig/husky_gazebo.pc'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo/lib/python3.10/site-packages'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_gazebo/bin'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/package.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/package.dsv'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/package.sh'
+[0.615s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/package.bash'
+[0.615s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_gazebo/share/husky_gazebo/package.zsh'
+[0.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_gazebo/share/colcon-core/packages/husky_gazebo)
+[0.616s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/husky-humble/husky_simulator' with build type 'ament_cmake'
+[0.616s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/husky-humble/husky_simulator'
+[0.616s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.621s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_msgs)
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs' for CMake module files
+[0.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_msgs
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs' for CMake config files
+[0.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_msgs', 'cmake_prefix_path')
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/cmake_prefix_path.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/cmake_prefix_path.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/cmake_prefix_path.sh'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs/lib'
+[0.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_msgs', 'ld_library_path_lib')
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/ld_library_path_lib.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/ld_library_path_lib.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/ld_library_path_lib.sh'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs/bin'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs/lib/pkgconfig/husky_msgs.pc'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs/lib/python3.10/site-packages'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs/bin'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/package.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/package.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/package.sh'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/package.bash'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/package.zsh'
+[0.626s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_msgs/share/colcon-core/packages/husky_msgs)
+[0.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/navigros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/navigros2
+[0.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_msgs)
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs' for CMake module files
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs' for CMake config files
+[0.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_msgs', 'cmake_prefix_path')
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/cmake_prefix_path.ps1'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/cmake_prefix_path.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/cmake_prefix_path.sh'
+[0.666s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs/lib'
+[0.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_msgs', 'ld_library_path_lib')
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/ld_library_path_lib.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/ld_library_path_lib.dsv'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/hook/ld_library_path_lib.sh'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs/bin'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs/lib/pkgconfig/husky_msgs.pc'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs/lib/python3.10/site-packages'
+[0.668s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_msgs/bin'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/package.ps1'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/package.dsv'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/package.sh'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/package.bash'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_msgs/share/husky_msgs/package.zsh'
+[0.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_msgs/share/colcon-core/packages/husky_msgs)
+[0.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/husky-humble/husky_base' with build type 'ament_cmake'
+[0.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/husky-humble/husky_base'
+[0.671s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.686s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/husky-humble/husky_desktop' with build type 'ament_cmake'
+[0.686s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/husky-humble/husky_desktop'
+[0.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigros2)
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2' for CMake module files
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_simulator': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_simulator -- -j22 -l22
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/navigros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/navigros2
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2' for CMake config files
+[0.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigros2', 'cmake_prefix_path')
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/cmake_prefix_path.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/navigros2/share/navigros2/hook/cmake_prefix_path.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/cmake_prefix_path.sh'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2/lib'
+[0.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigros2', 'ld_library_path_lib')
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/ld_library_path_lib.ps1'
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/navigros2/share/navigros2/hook/ld_library_path_lib.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/ld_library_path_lib.sh'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2/bin'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2/lib/pkgconfig/navigros2.pc'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2/lib/python3.10/site-packages'
+[0.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigros2', 'pythonpath')
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/pythonpath.ps1'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/navigros2/share/navigros2/hook/pythonpath.dsv'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/pythonpath.sh'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2/bin'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/navigros2/share/navigros2/package.ps1'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/navigros2/share/navigros2/package.dsv'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/navigros2/share/navigros2/package.sh'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/navigros2/share/navigros2/package.bash'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/navigros2/share/navigros2/package.zsh'
+[0.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/navigros2/share/colcon-core/packages/navigros2)
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_base': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/nav_migration/src/install/husky_base/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/nav_migration/src/build/husky_base -- -j22 -l22
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_simulator' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /root/nav_migration/src/build/husky_simulator -- -j22 -l22
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_simulator': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_simulator
+[0.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_simulator)
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_simulator' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /root/nav_migration/src/build/husky_simulator
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator' for CMake module files
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator' for CMake config files
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_simulator', 'cmake_prefix_path')
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/hook/cmake_prefix_path.ps1'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/hook/cmake_prefix_path.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/hook/cmake_prefix_path.sh'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator/bin'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator/lib/pkgconfig/husky_simulator.pc'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator/lib/python3.10/site-packages'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator/bin'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/package.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/package.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/package.sh'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/package.bash'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/package.zsh'
+[0.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_simulator/share/colcon-core/packages/husky_simulator)
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_desktop': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/nav_migration/src/install/husky_base/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/nav_migration/src/build/husky_desktop -- -j22 -l22
+[0.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_simulator)
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator' for CMake module files
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator' for CMake config files
+[0.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_simulator', 'cmake_prefix_path')
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/hook/cmake_prefix_path.ps1'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/hook/cmake_prefix_path.dsv'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/hook/cmake_prefix_path.sh'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator/bin'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator/lib/pkgconfig/husky_simulator.pc'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator/lib/python3.10/site-packages'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_simulator/bin'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/package.ps1'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/package.dsv'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/package.sh'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/package.bash'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_simulator/share/husky_simulator/package.zsh'
+[0.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_simulator/share/colcon-core/packages/husky_simulator)
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_base' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/nav_migration/src/install/husky_base/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/nav_migration/src/build/husky_base -- -j22 -l22
+[0.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_desktop' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/nav_migration/src/install/husky_base/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/nav_migration/src/build/husky_desktop -- -j22 -l22
+[0.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_desktop': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/nav_migration/src/install/husky_base/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/nav_migration/src/build/husky_desktop
+[0.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_desktop)
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop' for CMake module files
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_base': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/nav_migration/src/install/husky_base/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/nav_migration/src/build/husky_base
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_desktop' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/nav_migration/src/install/husky_base/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/nav_migration/src/build/husky_desktop
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop' for CMake config files
+[0.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_desktop', 'cmake_prefix_path')
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/hook/cmake_prefix_path.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/hook/cmake_prefix_path.dsv'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/hook/cmake_prefix_path.sh'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop/bin'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop/lib/pkgconfig/husky_desktop.pc'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop/lib/python3.10/site-packages'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop/bin'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/package.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/package.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/package.sh'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/package.bash'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/package.zsh'
+[0.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_desktop/share/colcon-core/packages/husky_desktop)
+[0.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigros2)
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2' for CMake module files
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2' for CMake config files
+[0.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigros2', 'cmake_prefix_path')
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/cmake_prefix_path.ps1'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/navigros2/share/navigros2/hook/cmake_prefix_path.dsv'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/cmake_prefix_path.sh'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2/lib'
+[0.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigros2', 'ld_library_path_lib')
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/ld_library_path_lib.ps1'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/navigros2/share/navigros2/hook/ld_library_path_lib.dsv'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/ld_library_path_lib.sh'
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2/bin'
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2/lib/pkgconfig/navigros2.pc'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2/lib/python3.10/site-packages'
+[0.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigros2', 'pythonpath')
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/pythonpath.ps1'
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/navigros2/share/navigros2/hook/pythonpath.dsv'
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/navigros2/share/navigros2/hook/pythonpath.sh'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/navigros2/bin'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/navigros2/share/navigros2/package.ps1'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/navigros2/share/navigros2/package.dsv'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/navigros2/share/navigros2/package.sh'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/navigros2/share/navigros2/package.bash'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/navigros2/share/navigros2/package.zsh'
+[0.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/navigros2/share/colcon-core/packages/navigros2)
+[0.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_base)
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base' for CMake module files
+[0.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_base' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_gazebo:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_description:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/nav_migration/src/install/husky_base/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/nav_migration/src/build/husky_base
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base' for CMake config files
+[0.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_base', 'cmake_prefix_path')
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_base/share/husky_base/hook/cmake_prefix_path.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_base/share/husky_base/hook/cmake_prefix_path.dsv'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_base/share/husky_base/hook/cmake_prefix_path.sh'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base/lib'
+[0.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_base', 'ld_library_path_lib')
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_base/share/husky_base/hook/ld_library_path_lib.ps1'
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_base/share/husky_base/hook/ld_library_path_lib.dsv'
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_base/share/husky_base/hook/ld_library_path_lib.sh'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base/bin'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base/lib/pkgconfig/husky_base.pc'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base/lib/python3.10/site-packages'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base/bin'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_base/share/husky_base/package.ps1'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_base/share/husky_base/package.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_base/share/husky_base/package.sh'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_base/share/husky_base/package.bash'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_base/share/husky_base/package.zsh'
+[0.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_base/share/colcon-core/packages/husky_base)
+[0.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_desktop)
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop' for CMake module files
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop' for CMake config files
+[0.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_desktop', 'cmake_prefix_path')
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/hook/cmake_prefix_path.ps1'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/hook/cmake_prefix_path.dsv'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/hook/cmake_prefix_path.sh'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop/bin'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop/lib/pkgconfig/husky_desktop.pc'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop/lib/python3.10/site-packages'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_desktop/bin'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/package.ps1'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/package.dsv'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/package.sh'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/package.bash'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_desktop/share/husky_desktop/package.zsh'
+[0.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_desktop/share/colcon-core/packages/husky_desktop)
+[0.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_base)
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base' for CMake module files
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base' for CMake config files
+[0.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_base', 'cmake_prefix_path')
+[0.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_base/share/husky_base/hook/cmake_prefix_path.ps1'
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_base/share/husky_base/hook/cmake_prefix_path.dsv'
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_base/share/husky_base/hook/cmake_prefix_path.sh'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base/lib'
+[0.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_base', 'ld_library_path_lib')
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_base/share/husky_base/hook/ld_library_path_lib.ps1'
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_base/share/husky_base/hook/ld_library_path_lib.dsv'
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_base/share/husky_base/hook/ld_library_path_lib.sh'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base/bin'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base/lib/pkgconfig/husky_base.pc'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base/lib/python3.10/site-packages'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_base/bin'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_base/share/husky_base/package.ps1'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_base/share/husky_base/package.dsv'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_base/share/husky_base/package.sh'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_base/share/husky_base/package.bash'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_base/share/husky_base/package.zsh'
+[0.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_base/share/colcon-core/packages/husky_base)
+[0.852s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/husky-humble/husky_bringup' with build type 'ament_cmake'
+[0.852s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/husky-humble/husky_bringup'
+[0.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_bringup': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_base/lib:/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/nav_migration/src/build/husky_bringup -- -j22 -l22
+[0.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_bringup' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_base/lib:/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/nav_migration/src/build/husky_bringup -- -j22 -l22
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_bringup': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_base/lib:/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/nav_migration/src/build/husky_bringup
+[0.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_bringup)
+[0.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_bringup' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_base/lib:/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/nav_migration/src/build/husky_bringup
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup' for CMake module files
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup' for CMake config files
+[0.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_bringup', 'cmake_prefix_path')
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/hook/cmake_prefix_path.ps1'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/hook/cmake_prefix_path.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/hook/cmake_prefix_path.sh'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup/lib'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup/bin'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup/lib/pkgconfig/husky_bringup.pc'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup/lib/python3.10/site-packages'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup/bin'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/package.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/package.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/package.sh'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/package.bash'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/package.zsh'
+[0.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_bringup/share/colcon-core/packages/husky_bringup)
+[0.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_bringup)
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup' for CMake module files
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup' for CMake config files
+[0.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_bringup', 'cmake_prefix_path')
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/hook/cmake_prefix_path.ps1'
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/hook/cmake_prefix_path.dsv'
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/hook/cmake_prefix_path.sh'
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup/lib'
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup/bin'
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup/lib/pkgconfig/husky_bringup.pc'
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup/lib/python3.10/site-packages'
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_bringup/bin'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/package.ps1'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/package.dsv'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/package.sh'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/package.bash'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_bringup/share/husky_bringup/package.zsh'
+[1.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_bringup/share/colcon-core/packages/husky_bringup)
+[1.001s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/nav_migration/src/husky-humble/husky_robot' with build type 'ament_cmake'
+[1.001s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/nav_migration/src/husky-humble/husky_robot'
+[1.001s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_robot': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_base/lib:/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/nav_migration/src/build/husky_robot -- -j22 -l22
+[1.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_robot' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_base/lib:/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/nav_migration/src/build/husky_robot -- -j22 -l22
+[1.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/nav_migration/src/build/husky_robot': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_base/lib:/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/nav_migration/src/build/husky_robot
+[1.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_robot)
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot' for CMake module files
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/nav_migration/src/build/husky_robot' returned '0': CMAKE_PREFIX_PATH=/root/nav_migration/src/install/husky_bringup:/root/nav_migration/src/install/husky_control:/root/nav_migration/src/install/husky_base:/root/nav_migration/src/install/husky_msgs:/root/nav_migration/src/install/husky_description:/root/nav_migration/src/install/navigros2:/root/nav_migration/src/install/husky_desktop:/root/nav_migration/src/install/husky_viz:/root/nav_migration/src/install/husky_simulator:/root/nav_migration/src/install/husky_robot:/root/nav_migration/src/install/husky_gazebo:/root/clearpath_ws/install/clearpath_common:/root/clearpath_ws/install/clearpath_generator_common:/root/clearpath_ws/install/clearpath_description:/root/clearpath_ws/install/clearpath_sensors_description:/root/clearpath_ws/install/clearpath_platform:/root/clearpath_ws/install/clearpath_msgs:/root/clearpath_ws/install/clearpath_platform_msgs:/root/clearpath_ws/install/clearpath_platform_description:/root/clearpath_ws/install/clearpath_mounts_description:/root/clearpath_ws/install/clearpath_manipulators:/root/clearpath_ws/install/clearpath_manipulators_description:/root/clearpath_ws/install/clearpath_customization:/root/clearpath_ws/install/clearpath_control:/root/clearpath_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_migration/src/install/husky_base/lib:/root/nav_migration/src/install/husky_msgs/lib:/root/nav_migration/src/install/navigros2/lib:/root/clearpath_ws/install/clearpath_platform/lib:/root/clearpath_ws/install/clearpath_platform_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/nav_migration/src/build/husky_robot
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot' for CMake config files
+[1.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_robot', 'cmake_prefix_path')
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_robot/share/husky_robot/hook/cmake_prefix_path.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_robot/share/husky_robot/hook/cmake_prefix_path.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_robot/share/husky_robot/hook/cmake_prefix_path.sh'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot/bin'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot/lib/pkgconfig/husky_robot.pc'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot/lib/python3.10/site-packages'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot/bin'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_robot/share/husky_robot/package.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_robot/share/husky_robot/package.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_robot/share/husky_robot/package.sh'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_robot/share/husky_robot/package.bash'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_robot/share/husky_robot/package.zsh'
+[1.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_robot/share/colcon-core/packages/husky_robot)
+[1.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky_robot)
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot' for CMake module files
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot' for CMake config files
+[1.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky_robot', 'cmake_prefix_path')
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_robot/share/husky_robot/hook/cmake_prefix_path.ps1'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/nav_migration/src/install/husky_robot/share/husky_robot/hook/cmake_prefix_path.dsv'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/nav_migration/src/install/husky_robot/share/husky_robot/hook/cmake_prefix_path.sh'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot/bin'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot/lib/pkgconfig/husky_robot.pc'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot/lib/python3.10/site-packages'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/root/nav_migration/src/install/husky_robot/bin'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_robot/share/husky_robot/package.ps1'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/nav_migration/src/install/husky_robot/share/husky_robot/package.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_robot/share/husky_robot/package.sh'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_robot/share/husky_robot/package.bash'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/root/nav_migration/src/install/husky_robot/share/husky_robot/package.zsh'
+[1.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/nav_migration/src/install/husky_robot/share/colcon-core/packages/husky_robot)
+[1.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.170s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.189s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.190s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/0/bus: No such file or directory
+[1.190s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/nav_migration/src/install/local_setup.ps1'
+[1.191s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/nav_migration/src/install/_local_setup_util_ps1.py'
+[1.191s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/nav_migration/src/install/setup.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/nav_migration/src/install/local_setup.sh'
+[1.193s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/nav_migration/src/install/_local_setup_util_sh.py'
+[1.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/nav_migration/src/install/setup.sh'
+[1.194s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/nav_migration/src/install/local_setup.bash'
+[1.195s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/nav_migration/src/install/setup.bash'
+[1.196s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/nav_migration/src/install/local_setup.zsh'
+[1.196s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/nav_migration/src/install/setup.zsh'

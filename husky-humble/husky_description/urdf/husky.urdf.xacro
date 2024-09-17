@@ -22,7 +22,7 @@
     </inertial>
     <visual>
       <geometry>
-        <box size="0.1 0.05 0.05"/>
+        <box size="0.05 0.1 0.05"/>
       </geometry>
       <material name="Gray">
         <color rgba="0.8 0.1 0.1 1.0"/>
@@ -39,7 +39,7 @@
   <joint name="realsense_joint" type="fixed">
     <parent link="base_link"/>
     <child link="realsense_link"/>
-    <origin xyz="0.2 0 0.5" rpy="0 0 0"/>
+    <origin xyz="0.4 0 0.28" rpy="0 0 0"/>
   </joint>
 
   <!-- Camera sensor plugin for RGB camera -->

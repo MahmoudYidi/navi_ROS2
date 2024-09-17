@@ -21,25 +21,25 @@ class KeyboardDriveNode(Node):
     def timer_callback(self):
         key = self.get_key()
         if key:
-            if key == 'w':
+            if key == 'w':  # Move forward
                 self.cmd_vel.linear.x = 1.0
                 self.cmd_vel.angular.z = 0.0
-            elif key == 's':
+            elif key == 's':  # Move backward
                 self.cmd_vel.linear.x = -1.0
                 self.cmd_vel.angular.z = 0.0
-            elif key == 'a':
+            elif key == 'a':  # Turn left
                 self.cmd_vel.linear.x = 0.0
-                self.cmd_vel.angular.z = 1.0
-            elif key == 'd':
+                self.cmd_vel.angular.z = 2.5  # Increase this value for faster turning
+            elif key == 'd':  # Turn right
                 self.cmd_vel.linear.x = 0.0
-                self.cmd_vel.angular.z = -1.0
-            elif key == 'q':
+                self.cmd_vel.angular.z = -2.5  # Increase this value for faster turning
+            elif key == 'q':  # Stop
                 self.cmd_vel.linear.x = 0.0
                 self.cmd_vel.angular.z = 0.0
             else:
                 self.cmd_vel.linear.x = 0.0
                 self.cmd_vel.angular.z = 0.0
-            
+
             self.publisher_.publish(self.cmd_vel)
 
     def get_key(self):
